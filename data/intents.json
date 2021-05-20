@@ -1,0 +1,53 @@
+{
+    "intents": 
+    [
+        {
+            "tag": "greeting",
+            "patterns": 
+            [
+                "Hello", 
+                "Hey", 
+                "Hey there", 
+                "Hi", 
+                "Hi there"
+            ],
+            "responses": 
+            [
+                "Hello", 
+                "Hey", 
+                "Hey there", 
+                "Hi", 
+                "Hi there"
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": 
+            [
+                "What is your name?", 
+                "What's your name?",
+                "What are you called?",
+                "Who are you?"
+            ],
+            "responses":
+            [
+                "My name is Ava",
+                "I am Ava, your artificially intelligent virtual assistant",
+                "I'm Ava, your artificially intelligent virtual assistant"
+            ]
+        },
+        {
+            "tag": "farewell",
+            "patterns": 
+            [
+                "Goodbye",
+                "Bye",
+                "See ya"
+            ],
+            "responses": 
+            [
+                "Goodbye"
+            ]
+        }
+    ]
+}
